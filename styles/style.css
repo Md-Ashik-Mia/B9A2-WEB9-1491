@@ -1,0 +1,213 @@
+/* fonts  */
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900;1000&display=swap');
+/* reset  */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Mulish', sans-serif;
+}
+body{
+background-color:#FFF;;
+
+}
+/* shared styles  */
+
+
+.container{
+    max-width: 81.25%;
+    /* background-color: rgb(55, 52, 51); */
+    margin: 0 auto;
+}
+
+
+
+
+
+/* header part starts */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3.25rem;
+    padding-bottom: 3.12rem;
+}
+
+nav .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.03rem;
+} 
+nav img{
+    width: 3rem;
+    height: 3.5005rem;
+}
+nav .logo h1{
+color: #131318;
+font-family: Mulish;
+font-size: 2.25rem;
+font-weight: 800;
+}
+nav .logo h1 span{
+    color: #FF5400;
+}
+nav .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .links .humberger{
+display: none;
+font-size: 1.5rem;
+
+}
+
+nav .links ul{
+display: flex;
+column-gap: 2.75rem;
+font-family: Mulish;
+font-size: 1.125rem;
+color: #424247;
+text-align: center;
+font-family: Mulish;
+font-weight: 400;
+
+} 
+nav .links ul li:nth-child(1){
+color: #FF5400;
+}
+
+
+
+
+
+
+
+/* header for tablet */
+@media screen and (min-width:601px) and (max-width:991px) {
+    nav .links ul{
+        column-gap: 1rem;  
+        } 
+  nav .logo h1{
+            font-size: 1.8rem;
+        }
+}
+
+
+/* header for mobile  */
+@media screen and (max-width:600px) {
+
+    nav .links ul{
+        display: none;
+    }
+
+
+   nav .links .humberger{
+        display: inline;
+    }
+
+    nav .logo h1{
+        font-size: 1.34644rem;
+    } 
+}
+
+/* header part ends  */
+
+
+/* banner section starts  */
+
+.explore{
+border-radius: 1rem;
+height: 31.25rem;
+width: 100%;
+background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+padding-top: 6.63rem;
+}
+.explore .exploreHeader{
+color: #FFF;
+font-family: Mulish;
+font-size: 4rem;
+font-weight: 800;
+}
+.explore .exploreParagraph{
+width: 42.25rem;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.625rem;
+margin:1.5rem auto 3rem;
+}
+.exploreSelectBoxes{
+    margin: 0 auto;
+    width: 50rem;
+    height: 5.25rem;
+    border-radius: 0.5rem;
+background-color:rgba(255, 255, 255, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+}
+.exploreSelectBoxes>*{
+padding: 1rem 0.94rem;
+border-radius: 0.5rem;
+color: rgba(19, 19, 24, 0.50);
+text-align: left;
+font-family: Mulish;
+font-weight: 400;
+font-size: 1rem;
+}
+
+.exploreSelectBoxes select option{
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* banner responsive for tablet */
+@media screen and (min-width:601px) and (max-width:991px) {
+   
+}
+
+/* banner responsive  for mobile  */
+@media screen and (max-width:600px) {
+
+   
+
+  
+
+}
+
+/* banner section ends  */
+
+
+
+
+
+
+
+
+/* banner responsive for tablet */
+@media screen and (min-width:601px) and (max-width:991px) {
+   
+}
+
+/* banner responsive  for mobile  */
+@media screen and (max-width:600px) {
+
+}
+
+/* banner section ends  */
