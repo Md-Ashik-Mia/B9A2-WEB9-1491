@@ -660,6 +660,144 @@ nav .links ul li:nth-child(1) {
 
 /* chose section ends */
 
+.discount{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.discount>h1{
+color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 2.5rem;
+font-weight: 800;
+margin-bottom: 1.5rem;
+}
+.discount >p{
+    width: 40.1875rem;
+color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.625rem; /* 162.5% */
+margin: 0 auto 3rem;
+}
+
+.triplediv{
+width: 100%;
+height: 31.25rem;
+margin-bottom: 1.5rem;
+display: flex;
+align-items: center;
+gap: 3.5rem;
+padding: 3.5rem;
+}
+
+.div1{
+    background-image: url("../Images/Group\ 39.png");
+    background-size: 100% 100%;
+    justify-content: end;
+}
+.div2{
+    background-image: url("../Images/Group\ 40.png");
+    background-size: 100% 100%;
+}
+.div3{
+    background-image: url("../Images/Group\ 39.png");
+    background-size: 100% 100%;
+    justify-content: end;
+}
+
+.divContainer{
+    width: 36.1875rem;
+height: 24.3125rem;
+border-radius: 1rem;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+padding: 3.25rem;
+}
+
+
+.divContainer h5{
+color: #5A5A5D;
+font-family: Mulish;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 1.63rem;
+}
+
+
+.divContainer h2{
+    margin-bottom: 1rem;
+    color: #131318;
+font-family: Mulish;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.divContainer p{
+    width: 28.25rem;
+color: #5A5A5D;
+font-family: Mulish;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem;
+margin-bottom: 1rem;
+}
+.divContainer h3{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 1.5rem;
+
+}
+
+.divContainer button{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding: 0.87rem 1.5rem;
+border: none;
+border-radius: 0.5rem;
+background: #FF5400;
+}
+
+.discount button{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+border-radius: 0.5rem;
+background: #FF5400;
+padding: 0.88rem 1.37rem;
+border: none;
+}
+
+
+
+
+
+
+
+
 
 /* perfect section starts */
 .perfect{
