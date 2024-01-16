@@ -693,7 +693,7 @@ margin-bottom: 1.5rem;
 display: flex;
 align-items: center;
 gap: 3.5rem;
-/* padding: 3.5rem; */
+
 }
 
 .div1{
@@ -712,12 +712,13 @@ gap: 3.5rem;
 }
 
 .divContainer{
-    width: 36.1875rem;
-height: 24.3125rem;
+width: 29.68rem;
+height: 17.8125rem;
 border-radius: 1rem;
 border: 2px solid #FFF;
 background: rgba(255, 255, 255, 0.80);
 padding: 3.25rem;
+margin:3.5rem;
 }
 
 
@@ -791,11 +792,7 @@ border: none;
 }
 
 @media screen and (max-width: 600px){
-    .fst-span{
-        display: block;
-        width:10rem;
-    }
-
+    
     .discount{
         flex-direction: column;
         display: flex;
@@ -893,7 +890,7 @@ font-size: 1.125rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 6.25rem;
+    margin: 6.25rem 0;
 }
 .perfect .perfectLeft h1 {
     width: 28rem;
@@ -947,7 +944,7 @@ background: #FF5400;
 }
 .perfect video{
 width: 38.125rem;
-height: 26.5rem;
+height: 21.5rem;
 border-radius: 1rem;
 }
 
