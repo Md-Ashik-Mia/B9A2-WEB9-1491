@@ -660,7 +660,160 @@ nav .links ul li:nth-child(1) {
 
 /* chose section ends */
 
+
+/* perfect section starts */
+.perfect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6.25rem;
+}
+.perfect .perfectLeft h1 {
+    width: 28rem;
+    color: #131318;
+font-family: Mulish;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 800;
+line-height: 3.75rem; /* 150% */
+
+}
+.perfect .perfectLeft p{
+
+width: 33.25rem;
+color: #5A5A5D;
+font-family: Mulish;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 162.5% */
+margin: 1.5rem 0 px;
+
+}
+.perfect .perfectLeft ul{
+    margin-bottom: 2rem;
+}
+.perfect .perfectLeft ul li{
+    list-style: disc;
+    list-style-position: inside;
+    width: 32.375rem;
+    color: #131318;
+font-family: Mulish;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.625rem; /* 162.5% */
+    
+
+} 
+.perfect .perfectLeft button {
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 1.25rem;
+font-weight: 800;
+padding: 0.87rem 2.62rem ; 
+border: none;
+border-radius: 0.5rem;
+background: #FF5400;
+
+}
+.perfect video{
+width: 38.125rem;
+height: 26.5rem;
+border-radius: 1rem;
+}
+
+
+
+
+
+
+/* perfect section for tabelet */
+
+@media screen and (min-width: 601px) and (max-width: 991px){
+    
+}
+/* perfect section for mobile */
+@media screen and (max-width: 600px){
+.perfect{
+    flex-direction: column;
+    margin-top: 1.5rem;
+    gap: 1.5rem;
+} 
+.perfect .perfectLeft{
+}
+
+.perfect .perfectLeft h1 {
+    width: 15.5rem;
+    font-size: 1.25rem;
+
+
+}
+.perfect .perfectLeft p{
+
+
+    width: 20.9375rem;
+    font-size: 0.875rem;
+    margin: 1rem 0;
+
+}
+.perfect .perfectLeft ul{
+    margin-bottom: 1.5rem;
+}
+.perfect .perfectLeft ul li{
+
+    width: 20.9375rem;
+    font-size: 0.875rem;
+} 
+.perfect .perfectLeft button {
+
+
+}
+.perfect video{
+width: 20.9375rem;
+height: 12.5rem;
+border-radius: 1rem;
+}
+
+
+}
+
+
+
+
+
+
+/* perfect section ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* newsletter section starts */
+
 
 .newsletter {
   display: flex;
