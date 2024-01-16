@@ -254,10 +254,15 @@ margin-bottom: 2rem;
 
 .tour{
     display: flex;
+   margin-bottom: 6.25rem;
+   align-items: center;
+   justify-content: center;
 }
 
 .tour img{
     width: 100%;
+max-width: 33.75rem;
+max-height: 34.375rem;
 }
 .tour .populartour {
    
@@ -359,3 +364,181 @@ margin-bottom: 1.5rem;
 
 /* tour section ends  */
 
+
+/* destination section starts */
+
+.destination{
+   
+}
+
+.destination h1 {
+text-align: center;
+color: #131318;
+font-family: Mulish;
+font-size: 2.5rem;
+font-weight: 800;
+margin-bottom: 1.5rem;
+}
+.destination p{
+text-align: center;
+margin: 0 auto 3rem;
+max-width:40.1875rem;
+color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 1rem;
+font-weight: 400;
+
+line-height: 1.625rem; /* 162.5% */
+}
+.destinationImages{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.destinationImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 1.75rem;
+font-weight: 800;
+
+}
+.destinationRowOne{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    position: relative;
+}
+
+.destinationRowTwo{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    position: relative;
+}
+.destinationRowThree{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    position: relative;
+}
+#image1{
+background-image: url("../Images/image1.png");
+background-repeat: no-repeat;
+background-size: cover;
+width: 35.8125rem;
+height: 18.75rem;
+
+}
+
+#image2{
+    width: 35.8125rem;
+    height: 18.75rem;
+    background-image: url("../Images/image2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image3{
+    width: 23.375rem;
+    height: 17.875rem;
+    background-image: url("../Images/image3.png");
+background-repeat: no-repeat;
+background-size: cover;
+   
+
+}
+#image4{
+width: 29.625rem;
+height: 17.875rem;
+background-image: url("../Images/image4.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+#image5{
+width: 17.125rem;
+height: 17.875rem;
+background-image: url("../Images/image5.png");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+#image6{
+    width: 29.5625rem;
+height: 18.75rem;
+background-image: url("../Images/image6.png");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+#image7{
+    width: 42.0625rem;
+    height: 18.75rem;
+    background-image: url("../Images/image7.png");
+background-repeat: no-repeat;
+background-size: cover;
+    
+}
+ 
+
+
+
+
+
+
+
+
+/* destination for tablet  */
+@media screen and (min-width: 601px) and (max-width: 991px) {
+.destinationRowOne{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.destinationRowTwo{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.destinationRowThree{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#image1, #image2,#image3,#image4,#image5,#image6,#image7{
+    background-size: 100% 100%;
+    width: 100%;
+    height: 11rem;;
+}
+
+}
+
+
+/* destination for mobile  */
+@media screen and (max-width: 600px) {
+    
+    .destinationRowOne{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .destinationRowTwo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .destinationRowThree{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #image1, #image2,#image3,#image4,#image5,#image6,#image7{
+        background-size: 100% 100%;
+        width: 100%;
+        height: 11rem;;
+        font-size: 1.25rem;
+    }
+}
+/* destination section ends */
